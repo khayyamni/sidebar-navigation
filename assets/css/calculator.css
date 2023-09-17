@@ -1,0 +1,43 @@
+.calculator{
+    text-align: center;
+    margin-top: 5rem;
+ }
+ 
+ .calculator .buttons{
+     margin: 40px 0;
+ 
+ }
+ 
+ .inputs input{
+ margin: 0 35px;
+ width: 40%;
+ }
+ 
+ .buttons button{
+     width: 15%;
+     height: 35px;
+     margin: 0 30px;
+     color: white;
+     border: none;
+ }
+ 
+ .result input{
+     width: 40%;
+ }
+
+ .buttons button:nth-child(1){
+    background-color: blue;
+ }
+
+ .buttons button:nth-child(2){
+    background-color: red;
+ }
+
+ .buttons button:nth-child(3){
+    background-color: green;
+ }
+
+ .buttons button:nth-child(4){
+    background-color: yellow;
+    color:darkslategrey;
+ }
